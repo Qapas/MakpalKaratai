@@ -13,7 +13,7 @@ function checkPhoneNumber() {
                 var playerName = data[enteredNumber].name_player;
 
                 // Меняем текст с именем игрока
-                document.getElementById("resultText").innerText = "Уважаемый(ая), " + playerName + ", вы участвуете в розыгрыше";
+                document.getElementById("resultText").innerText = "Уважаемый(ая), " + playerName + ", вы участвуете в розыгрыше.";
             } else {
                 // Если номер не найден, меняем текст
                 document.getElementById("resultText").innerText = "Участник не найден.";
